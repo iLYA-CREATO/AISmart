@@ -11,11 +11,12 @@ public class GetScreammer : MonoBehaviour
 
     [SerializeField]
     private TextMeshProUGUI textAction;
-
+    
+    [SerializeField]
+    private SceneLoaded sceneLoaded;
 
     Ray ray;
     RaycastHit hit;
-
 
     private void Update()
     {
@@ -28,6 +29,7 @@ public class GetScreammer : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 Debug.Log("Монстр пойман");
+                sceneLoaded.LoadScene2D();
             }
         }
         else

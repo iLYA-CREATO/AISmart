@@ -9,8 +9,6 @@ public class ScreamerActivate : MonoBehaviour
     [SerializeField]
     private string code1;
     [SerializeField]
-    private string code2;
-    [SerializeField]
     private string code3;
     [SerializeField]
     private string code4;
@@ -27,16 +25,15 @@ public class ScreamerActivate : MonoBehaviour
     [SerializeField]
     [Header("Звук появления монстра")]
     private Audio audio2;
-    [SerializeField]
-    [Header("Голоса людей")]
-    private Audio audio3;
-
 
     [SerializeField]
     private List<LightComponent> listLight;
 
     [SerializeField]
     private LightSwitcher lightSwitcher;
+
+
+    private bool isActiveScreammer;
     private void OnEnable()
     {
         TrigCollider.OnTrigColldier += ScreamerCode;
@@ -52,10 +49,6 @@ public class ScreamerActivate : MonoBehaviour
         {
             PlayAudio._PlayAudio(audio.AudioClip, audio.audioSource);
         }
-        else if (codeMessage == code2)
-        {
-            PlayAudio._PlayAudio(audio3.AudioClip, audio3.audioSource);
-        }
         else if (codeMessage == code3)
         {
             for (int i = 0; i < listLight.Count; i++)
@@ -65,7 +58,11 @@ public class ScreamerActivate : MonoBehaviour
         }
         else if (codeMessage == code4)
         {
-            StartCoroutine(ActiveteScreamer(timeScreamer, screamer));
+            if(isActiveScreammer)
+            {
+                StartCoroutine(ActiveteScreamer(timeScreamer, screamer));
+            }
+            isActiveScreammer = true;
         }
     }
 
@@ -75,8 +72,6 @@ public class ScreamerActivate : MonoBehaviour
         PlayAudio._PlayAudio(audio2.AudioClip, audio2.audioSource);
         yield return new WaitForSecondsRealtime(0.1f);
         gameObject.SetActive(true);
-        yield return new WaitForSecondsRealtime(time);
-        gameObject.SetActive(false);
     }
 }
 
