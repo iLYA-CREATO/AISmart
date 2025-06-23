@@ -2,6 +2,7 @@ Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.Editor.ConversionSystem.ref.dll
 Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.Editor.ref.dll_7989A1C8D57EF9BF.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.Updater.ref.dll_34B8D5B7DED6E76D.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.ref.dll_407F07063643C512.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Bindings.OpenImageIO.Editor.ref.dll_81C856977A1B5F7C.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Burst.Editor.ref.dll_E2F92DAB6C167CC9.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Burst.ref.dll_F30DFA20C0DD1968.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Collections.Editor.ref.dll_E4491E98C71DB4B4.mvfrm
@@ -13,6 +14,9 @@ Library\Bee\artifacts\mvdfrm\Unity.Mathematics.ref.dll_E8EFDB1B8D5C174E.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Center.Common.ref.dll_EE36537354EA42C8.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Center.Editor.ref.dll_EB1F4B6E56116D4A.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.PlasticSCM.Editor.ref.dll_257AEB342BE77856.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Recorder.Base.ref.dll_EF7F95D386759C59.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Recorder.Editor.ref.dll_1902ED81DEF11A55.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Recorder.ref.dll_173FFB8F7F73131C.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll_5436F99F8BDCED8B.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.Editor.Shared.ref.dll_FAA396FB17B8C1A8.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.Editor.ref.dll_46EB9B6930B27991.mvfrm

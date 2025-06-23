@@ -58,7 +58,7 @@ public class ScreamerActivate : MonoBehaviour
         }
         else if (codeMessage == code4)
         {
-            if(isActiveScreammer)
+            if(isActiveScreammer == false)
             {
                 StartCoroutine(ActiveteScreamer(timeScreamer, screamer));
             }
